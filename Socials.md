@@ -17,7 +17,7 @@ A community for people passionate about technology, programming, cybersecurity, 
 
 ## 🌐 Join the Community
 
-[![Discord](https://img.shields.io/badge/Join%20Tech%20Geek-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p8KwSNStV)
+https://discord.gg/p8KwSNStV
 
 ### Tech Geek
 
