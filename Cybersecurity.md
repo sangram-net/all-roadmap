@@ -1,158 +1,203 @@
-01 — Computer Fundamentals
-1. Computer Fundamentals
+# 🔐 Cybersecurity Roadmap
+
+> A structured beginner-to-advanced roadmap for learning Cybersecurity, Ethical Hacking, Blue Team, Red Team, Digital Forensics, Cloud Security, and DevSecOps.
+
+---
+
+## 🗺️ Roadmap
+
+```text
+Computer Fundamentals
+        ↓
+Linux
+        ↓
+Networking
+        ↓
+Python
+        ↓
+Cybersecurity Fundamentals
+        ↓
+Cryptography
+        ↓
+Web Technologies
+        ↓
+Security Tools
+        ↓
+Reconnaissance
+        ↓
+Vulnerability Assessment
+        ↓
+Web Security
+        ↓
+Active Directory
+        ↓
+SOC / Blue Team
+        ↓
+Digital Forensics
+        ↓
+Malware Analysis
+        ↓
+Cloud Security
+        ↓
+Penetration Testing
+        ↓
+Red Team
+        ↓
+DevSecOps
+        ↓
+Projects + CTFs
+        ↓
+Portfolio
+        ↓
+Job Ready
+```
+
+---
+
+# 01 — Computer Fundamentals
+
+## 1. Computer Fundamentals
 
 Learn:
 
-CPU
-RAM
-Storage
-Motherboard
-BIOS/UEFI
-GPU
-Processes
-Threads
-Operating systems
+* CPU
+* RAM
+* Storage
+* GPU
+* Motherboard
+* BIOS/UEFI
+* Processes
+* Threads
+* Operating Systems
 
-🎥 Hindi:
-Computer Fundamentals — YouTube
+🎥 [Hindi: Computer Fundamentals — YouTube](https://www.youtube.com/results?search_query=computer+fundamentals+full+course+Hindi)
 
-2. Operating Systems
-
-Learn:
-
-Kernel
-Processes
-Threads
-Memory
-File systems
-Scheduling
-Permissions
-
-🎥 Hindi:
-Operating Systems — YouTube
-
-3. Computer Architecture
+## 2. Operating Systems
 
 Learn:
 
-Binary
-Hexadecimal
-CPU
-Registers
-Stack
-Heap
-Memory
+* Kernel
+* Processes
+* Threads
+* Memory management
+* File systems
+* Scheduling
+* Permissions
 
-🎥 Hindi:
-Computer Architecture — YouTube
+🎥 [Hindi: Operating Systems — YouTube](https://www.youtube.com/results?search_query=operating+system+full+course+Hindi)
 
-4. Virtualization
-
-Learn:
-
-Virtual machines
-Hypervisors
-Virtual networking
-NAT
-Bridged networking
-Snapshots
-
-🎥 Hindi:
-Virtualization / VirtualBox — YouTube
-
-02 — Linux
-
-Linux is mandatory for your cybersecurity path.
-
-5. Linux Basics
+## 3. Computer Architecture
 
 Learn:
 
-Terminal
-Filesystem
-Commands
-Users
-Groups
-Permissions
+* Binary
+* Hexadecimal
+* CPU
+* Registers
+* Stack
+* Heap
+* Memory
 
-🎥 Hindi:
-Kali/Linux Full Course — YouTube
+🎥 [Hindi: Computer Architecture — YouTube](https://www.youtube.com/results?search_query=computer+architecture+full+course+Hindi)
 
-A Hindi Kali Linux course currently indexed by Class Central covers Linux commands, users, permissions, networking commands, SSH, Nmap, Burp Suite, Wireshark, John the Ripper and Metasploit.
-
-6. Linux Administration
+## 4. Virtualization
 
 Learn:
 
-Users
-Groups
-Permissions
-Processes
-Services
-systemd
-Logs
-Package management
+* Virtual Machines
+* Hypervisors
+* NAT
+* Bridged networking
+* Host-only networking
+* Snapshots
 
-🎥 Hindi:
-Linux Administration — YouTube
+🎥 [Hindi: Virtualization & VirtualBox — YouTube](https://www.youtube.com/results?search_query=VirtualBox+virtualization+full+course+Hindi)
 
-7. Bash Scripting
+---
 
-Learn:
+# 02 — Linux
 
-Variables
-Conditions
-Loops
-Functions
-Pipes
-Redirection
-Automation
-
-🎥 Hindi:
-Bash Scripting — YouTube
-
-8. Linux Security
+## 5. Linux Fundamentals
 
 Learn:
 
-File permissions
-SUID/SGID
-SSH
-Firewall
-Logs
-Cron
-Hardening
+* Terminal
+* Linux filesystem
+* Users
+* Groups
+* Permissions
+* Processes
+* Packages
+* Services
 
-🎥 Hindi:
-Linux Security — YouTube
+🎥 [Hindi: Linux Full Course — YouTube](https://www.youtube.com/results?search_query=Linux+full+course+Hindi+beginners)
 
-03 — Networking
-
-Spend serious time here. Networking is one of the most important foundations for cybersecurity.
-
-There are excellent Hindi networking courses from Gate Smashers / 5 Minutes Engineering / Network Kings. The current indexed Gate Smashers course covers OSI, TCP/IP, DNS, HTTP, cryptography, firewalls, IP addressing, TCP/UDP and networking security concepts.
-
-9. Networking Fundamentals
+## 6. Kali Linux
 
 Learn:
 
-LAN
-WAN
-PAN
-MAN
-MAC
-IP
-Router
-Switch
-Hub
+* Kali installation
+* Terminal
+* Security tools
+* Package management
+* Networking
+* Security environment
 
-🎥 Hindi:
-Computer Networking Complete Course — YouTube
+🎥 [Hindi: Kali Linux Full Course — YouTube](https://www.youtube.com/results?search_query=Kali+Linux+full+course+Hindi+cybersecurity)
 
-10. OSI Model
+## 7. Linux Administration
 
-Learn all 7 layers:
+Learn:
 
+* Users
+* Groups
+* Permissions
+* Processes
+* Services
+* Systemd
+* Logs
+* SSH
+
+🎥 [Hindi: Linux Administration — YouTube](https://www.youtube.com/results?search_query=Linux+system+administration+full+course+Hindi)
+
+## 8. Bash Scripting
+
+Learn:
+
+* Variables
+* Conditions
+* Loops
+* Functions
+* Pipes
+* Redirection
+* Automation
+
+🎥 [Hindi: Bash Scripting — YouTube](https://www.youtube.com/results?search_query=Bash+scripting+full+course+Hindi)
+
+---
+
+# 03 — Networking
+
+## 9. Networking Fundamentals
+
+Learn:
+
+* LAN
+* WAN
+* MAC
+* IP
+* Router
+* Switch
+* Hub
+* Ports
+
+🎥 [Hindi: Computer Networking — Gate Smashers](https://www.youtube.com/watch?v=JFF2vJaN0Cw)
+
+## 10. OSI Model
+
+Learn all seven layers:
+
+```text
 7 — Application
 6 — Presentation
 5 — Session
@@ -160,542 +205,543 @@ Learn all 7 layers:
 3 — Network
 2 — Data Link
 1 — Physical
+```
 
-🎥 Hindi:
-OSI Model — YouTube
+🎥 [Hindi: OSI Model — YouTube](https://www.youtube.com/results?search_query=OSI+model+Hindi+Gate+Smashers)
 
-11. TCP/IP
-
-Learn:
-
-TCP
-UDP
-IP
-ICMP
-ARP
-DHCP
-DNS
-
-🎥 Hindi:
-TCP/IP — YouTube
-
-12. IPv4 & Subnetting
+## 11. TCP/IP
 
 Learn:
 
-IPv4
-Private IP
-Public IP
-CIDR
-Subnet mask
-Network
-Broadcast
-Hosts
+* TCP
+* UDP
+* IP
+* ICMP
+* ARP
+* DHCP
+* DNS
 
-🎥 Hindi:
-Subnetting — YouTube
+🎥 [Hindi: TCP/IP — YouTube](https://www.youtube.com/results?search_query=TCP+IP+protocol+Hindi+Gate+Smashers)
 
-13. DNS
+## 12. IPv4 & Subnetting
 
 Learn:
 
-DNS resolution
-A
-AAAA
-CNAME
-MX
-TXT
-NS
-DNS cache
+* IPv4
+* Private IP
+* Public IP
+* CIDR
+* Subnet masks
+* Network address
+* Broadcast
+* Hosts
 
-🎥 Hindi:
-DNS — YouTube
+🎥 [Hindi: Subnetting — YouTube](https://www.youtube.com/results?search_query=subnetting+full+course+Hindi+computer+networking)
 
-14. HTTP / HTTPS
-
-Learn:
-
-GET
-POST
-PUT
-DELETE
-Headers
-Cookies
-Sessions
-HTTPS
-TLS
-
-🎥 Hindi:
-HTTP HTTPS — YouTube
-
-15. Firewalls
+## 13. DNS
 
 Learn:
 
-Packet filtering
-Stateful firewall
-Proxy firewall
-IDS
-IPS
+* DNS resolution
+* A
+* AAAA
+* CNAME
+* MX
+* TXT
+* NS
 
-🎥 Hindi:
-Firewall & Network Security — YouTube
+🎥 [Hindi: DNS — YouTube](https://www.youtube.com/results?search_query=DNS+full+course+Hindi+computer+networking)
 
-04 — Python for Cybersecurity
-16. Python Fundamentals
-
-Learn:
-
-Variables
-Data types
-Conditions
-Loops
-Functions
-Lists
-Dictionaries
-Sets
-
-🎥 Hindi:
-Python Full Course — YouTube
-
-17. Python File & System Automation
+## 14. HTTP / HTTPS
 
 Learn:
 
-os
-sys
-subprocess
-File handling
-JSON
-CSV
-Regex
+* HTTP methods
+* Headers
+* Cookies
+* Sessions
+* Status codes
+* HTTPS
+* TLS
 
-🎥 Hindi:
-Python Automation — YouTube
+🎥 [Hindi: HTTP & HTTPS — YouTube](https://www.youtube.com/results?search_query=HTTP+HTTPS+web+security+Hindi)
 
-18. Python Networking
+## 15. Network Security
 
 Learn:
 
-Sockets
-TCP
-UDP
-Clients
-Servers
-Port scanning
+* Firewall
+* NAT
+* Proxy
+* IDS
+* IPS
+* VPN
+* Network segmentation
 
-🎥 Hindi:
-Python Socket Programming — YouTube
+🎥 [Hindi: Network Security — YouTube](https://www.youtube.com/results?search_query=network+security+fundamentals+Hindi)
 
-19. Python Security Projects
+---
+
+# 04 — Python
+
+## 16. Python Fundamentals
+
+Learn:
+
+* Variables
+* Data types
+* Conditions
+* Loops
+* Functions
+* Lists
+* Dictionaries
+* Sets
+* Tuples
+
+🎥 [Hindi: Python Full Course — YouTube](https://www.youtube.com/results?search_query=Python+full+course+Hindi+beginners)
+
+## 17. Python Automation
+
+Learn:
+
+* `os`
+* `sys`
+* `subprocess`
+* File handling
+* JSON
+* CSV
+* Regex
+
+🎥 [Hindi: Python Automation — YouTube](https://www.youtube.com/results?search_query=Python+automation+full+course+Hindi)
+
+## 18. Python Networking
+
+Learn:
+
+* Sockets
+* TCP
+* UDP
+* Clients
+* Servers
+* Port scanning
+
+🎥 [Hindi: Python Socket Programming — YouTube](https://www.youtube.com/results?search_query=Python+socket+programming+Hindi+cybersecurity)
+
+## 19. Cybersecurity Python Projects
 
 Build:
 
-Password generator
-Password strength checker
-Port scanner
-Hash checker
-Log analyzer
-File integrity checker
+* Password generator
+* Password strength checker
+* Port scanner
+* Hash checker
+* Log analyzer
+* File integrity checker
 
-🎥 Hindi:
-Python Cybersecurity Projects — YouTube
+🎥 [Hindi: Python Cybersecurity Projects — YouTube](https://www.youtube.com/results?search_query=Python+cybersecurity+projects+Hindi)
 
-05 — Cybersecurity Fundamentals
-20. CIA Triad
+---
 
-Learn:
+# 05 — Cybersecurity Fundamentals
 
-Confidentiality
-Integrity
-Availability
-
-🎥 Hindi:
-CIA Triad — YouTube
-
-21. Threats & Vulnerabilities
+## 20. CIA Triad
 
 Learn:
 
-Malware
-Phishing
-Ransomware
-DDoS
-Insider threats
-Social engineering
+* Confidentiality
+* Integrity
+* Availability
 
-🎥 Hindi:
-Cybersecurity Threats — YouTube
+🎥 [Hindi: CIA Triad — YouTube](https://www.youtube.com/results?search_query=CIA+triad+cybersecurity+Hindi)
 
-22. Authentication & Authorization
+## 21. Threats & Vulnerabilities
 
 Learn:
 
-Authentication
-Authorization
-MFA
-RBAC
-Password security
-Sessions
+* Malware
+* Phishing
+* Ransomware
+* DDoS
+* Social engineering
+* Insider threats
 
-🎥 Hindi:
-Authentication & Authorization — YouTube
+🎥 [Hindi: Cybersecurity Threats — YouTube](https://www.youtube.com/results?search_query=cybersecurity+threats+vulnerabilities+Hindi)
 
-23. Security Controls
-
-Learn:
-
-Preventive
-Detective
-Corrective
-Technical
-Administrative
-Physical
-
-🎥 Hindi:
-Security Controls — YouTube
-
-24. Risk Management
+## 22. Authentication & Authorization
 
 Learn:
 
-Assets
-Threats
-Vulnerabilities
-Risk
-Impact
-Likelihood
+* Authentication
+* Authorization
+* MFA
+* RBAC
+* Password security
+* Sessions
+* Tokens
 
-🎥 Hindi:
-Cybersecurity Risk Management — YouTube
+🎥 [Hindi: Authentication & Authorization — YouTube](https://www.youtube.com/results?search_query=authentication+authorization+cybersecurity+Hindi)
 
-06 — Cryptography
-25. Cryptography Fundamentals
-
-Learn:
-
-Encryption
-Decryption
-Plaintext
-Ciphertext
-Keys
-
-🎥 Hindi:
-Cryptography — YouTube
-
-26. Symmetric Encryption
+## 23. Security Controls
 
 Learn:
 
-AES
-DES
-Block cipher
-Stream cipher
+* Preventive
+* Detective
+* Corrective
+* Technical
+* Administrative
+* Physical
 
-🎥 Hindi:
-Symmetric Cryptography — YouTube
+🎥 [Hindi: Security Controls — YouTube](https://www.youtube.com/results?search_query=cybersecurity+security+controls+Hindi)
 
-27. Asymmetric Encryption
-
-Learn:
-
-RSA
-ECC
-Public key
-Private key
-Key exchange
-
-🎥 Hindi:
-Asymmetric Cryptography — YouTube
-
-28. Hashing
+## 24. Risk Management
 
 Learn:
 
-MD5
-SHA-1
-SHA-256
-SHA-3
-Salt
-Password hashing
+* Assets
+* Threats
+* Vulnerabilities
+* Risk
+* Impact
+* Likelihood
 
-🎥 Hindi:
-Hashing — YouTube
+🎥 [Hindi: Cybersecurity Risk Management — YouTube](https://www.youtube.com/results?search_query=cybersecurity+risk+management+Hindi)
 
-29. SSL/TLS
+---
 
-Learn:
+# 06 — Cryptography
 
-Certificates
-CA
-TLS handshake
-HTTPS
-
-🎥 Hindi:
-TLS/SSL — YouTube
-
-07 — Security Tools
-30. Nmap
+## 25. Cryptography Fundamentals
 
 Learn:
 
-Host discovery
-Port scanning
-Service detection
-OS detection
-NSE
+* Encryption
+* Decryption
+* Plaintext
+* Ciphertext
+* Keys
 
-🎥 Hindi:
-Nmap Hindi — YouTube
+🎥 [Hindi: Cryptography — YouTube](https://www.youtube.com/results?search_query=cryptography+full+course+Hindi+cybersecurity)
 
-31. Wireshark
-
-Learn:
-
-Packet capture
-Filters
-TCP
-UDP
-DNS
-HTTP
-ARP
-ICMP
-
-🎥 Hindi:
-Wireshark Hindi — YouTube
-
-32. Netcat
-
-🎥 Hindi:
-Netcat — YouTube
-
-33. Burp Suite
+## 26. Symmetric Encryption
 
 Learn:
 
-Proxy
-HTTP history
-Repeater
-Intruder
-Decoder
-Site map
+* AES
+* DES
+* Block ciphers
+* Stream ciphers
 
-🎥 Hindi:
-Burp Suite Hindi — YouTube
+🎥 [Hindi: Symmetric Cryptography — YouTube](https://www.youtube.com/results?search_query=symmetric+cryptography+AES+Hindi)
 
-34. Metasploit
+## 27. Asymmetric Encryption
 
 Learn:
 
-Modules
-Exploits
-Payload concepts
-Sessions
-Meterpreter
+* RSA
+* ECC
+* Public key
+* Private key
+* Key exchange
 
-🎥 Hindi:
-Metasploit Hindi — YouTube
+🎥 [Hindi: RSA & ECC — YouTube](https://www.youtube.com/results?search_query=RSA+ECC+cryptography+Hindi)
 
-35. Gobuster
-
-🎥 Hindi:
-Gobuster Hindi — YouTube
-
-08 — Reconnaissance
-36. Footprinting
+## 28. Hashing
 
 Learn:
 
-Domain information
-DNS
-WHOIS
-IP information
-Technology discovery
+* MD5
+* SHA-1
+* SHA-256
+* SHA-3
+* Salt
+* Password hashing
 
-🎥 Hindi:
-Footprinting & Reconnaissance — YouTube
+🎥 [Hindi: Cryptographic Hashing — YouTube](https://www.youtube.com/results?search_query=cryptographic+hashing+SHA256+Hindi)
 
-37. OSINT
-
-Learn:
-
-Search operators
-Username research
-Email intelligence
-Domain intelligence
-Metadata
-
-🎥 Hindi:
-OSINT Hindi — YouTube
-
-38. Network Scanning
-
-🎥 Hindi:
-Network Scanning — YouTube
-
-39. Enumeration
+## 29. SSL/TLS
 
 Learn:
 
-SMB
-DNS
-SNMP
-FTP
-SMTP
-NFS
+* Certificates
+* Certificate Authorities
+* TLS handshake
+* HTTPS
 
-🎥 Hindi:
-Enumeration — YouTube
+🎥 [Hindi: SSL/TLS — YouTube](https://www.youtube.com/results?search_query=SSL+TLS+handshake+Hindi+cybersecurity)
 
-09 — Vulnerability Assessment
-40. Vulnerability Concepts
+---
 
-Learn:
+# 07 — Security Tools
 
-CVE
-CVSS
-Exploit
-Misconfiguration
-Attack surface
-
-🎥 Hindi:
-CVE & CVSS — YouTube
-
-41. Vulnerability Scanning
+## 30. Nmap
 
 Learn:
 
-Nmap NSE
-OpenVAS
-Greenbone
-Nessus concepts
+* Host discovery
+* Port scanning
+* Service detection
+* OS detection
+* NSE
 
-🎥 Hindi:
-Vulnerability Scanning — YouTube
+🎥 [Hindi: Nmap — YouTube](https://www.youtube.com/results?search_query=Nmap+full+course+Hindi+ethical+hacking)
 
-42. Vulnerability Management
-
-🎥 Hindi:
-Vulnerability Management — YouTube
-
-10 — Web Security
-43. Web Application Basics
+## 31. Wireshark
 
 Learn:
 
-Frontend
-Backend
-Database
-APIs
-Cookies
-Sessions
+* Packet capture
+* Display filters
+* TCP
+* UDP
+* DNS
+* HTTP
+* ARP
+* ICMP
 
-🎥 Hindi:
-Web Application Security Basics — YouTube
+🎥 [Hindi: Wireshark — YouTube](https://www.youtube.com/results?search_query=Wireshark+full+course+Hindi+cybersecurity)
 
-44. OWASP Top 10
-
-🎥 Hindi:
-OWASP Top 10 — YouTube
-
-45. SQL Injection
-
-🎥 Hindi:
-SQL Injection — YouTube
-
-46. XSS
-
-🎥 Hindi:
-XSS — YouTube
-
-47. CSRF
-
-🎥 Hindi:
-CSRF — YouTube
-
-48. IDOR / Broken Access Control
-
-🎥 Hindi:
-IDOR — YouTube
-
-49. SSRF
-
-🎥 Hindi:
-SSRF — YouTube
-
-50. JWT / Authentication
-
-🎥 Hindi:
-Web Authentication Security — YouTube
-
-11 — Active Directory
-51. Windows Fundamentals
-
-🎥 Hindi:
-Windows Security Fundamentals — YouTube
-
-52. Active Directory
+## 32. Netcat
 
 Learn:
 
-Domain
-Domain Controller
-Users
-Groups
-OU
-GPO
+* TCP connections
+* UDP
+* Listening
+* Troubleshooting
 
-🎥 Hindi:
-Active Directory — YouTube
+🎥 [Hindi: Netcat — YouTube](https://www.youtube.com/results?search_query=Netcat+cybersecurity+Hindi)
 
-53. Kerberos
-
-🎥 Hindi:
-Kerberos — YouTube
-
-54. LDAP / NTLM
-
-🎥 Hindi:
-LDAP NTLM — YouTube
-
-55. Active Directory Security
-
-🎥 Hindi:
-Active Directory Security — YouTube
-
-12 — SOC / Blue Team
-56. SOC Fundamentals
-
-🎥 Hindi:
-SOC Analyst — YouTube
-
-57. Log Analysis
+## 33. Burp Suite
 
 Learn:
 
-Windows logs
-Linux logs
-Authentication logs
-Firewall logs
-Web logs
+* Proxy
+* HTTP history
+* Repeater
+* Intruder
+* Decoder
+* Site Map
 
-🎥 Hindi:
-Log Analysis — YouTube
+🎥 [Hindi: Burp Suite — YouTube](https://www.youtube.com/results?search_query=Burp+Suite+full+course+Hindi+ethical+hacking)
 
-58. SIEM
-
-🎥 Hindi:
-SIEM Full Course — YouTube
-
-59. Splunk
-
-🎥 Hindi:
-Splunk SOC — YouTube
-
-60. Incident Response
+## 34. Metasploit
 
 Learn:
 
+* Modules
+* Exploits
+* Payload concepts
+* Sessions
+* Meterpreter
+
+🎥 [Hindi: Metasploit — YouTube](https://www.youtube.com/results?search_query=Metasploit+full+course+Hindi+ethical+hacking)
+
+## 35. Gobuster
+
+Learn:
+
+* Directory enumeration
+* DNS enumeration
+* Virtual hosts
+* Wordlists
+
+🎥 [Hindi: Gobuster — YouTube](https://www.youtube.com/results?search_query=Gobuster+Hindi+ethical+hacking)
+
+---
+
+# 08 — Reconnaissance
+
+## 36. Footprinting
+
+Learn:
+
+* Domain information
+* DNS
+* WHOIS
+* IP information
+* Technology discovery
+
+🎥 [Hindi: Footprinting & Reconnaissance — YouTube](https://www.youtube.com/results?search_query=footprinting+reconnaissance+Hindi+ethical+hacking)
+
+## 37. OSINT
+
+Learn:
+
+* Search operators
+* Username research
+* Email intelligence
+* Domain intelligence
+* Metadata
+
+🎥 [Hindi: OSINT — YouTube](https://www.youtube.com/results?search_query=OSINT+full+course+Hindi+cybersecurity)
+
+## 38. Network Scanning
+
+🎥 [Hindi: Network Scanning — YouTube](https://www.youtube.com/results?search_query=network+scanning+Nmap+Hindi+ethical+hacking)
+
+## 39. Enumeration
+
+Learn:
+
+* SMB
+* DNS
+* SNMP
+* FTP
+* SMTP
+* NFS
+
+🎥 [Hindi: Enumeration — YouTube](https://www.youtube.com/results?search_query=enumeration+ethical+hacking+Hindi)
+
+---
+
+# 09 — Vulnerability Assessment
+
+## 40. Vulnerability Concepts
+
+Learn:
+
+* CVE
+* CVSS
+* Exploit
+* Misconfiguration
+* Attack surface
+* Risk
+
+🎥 [Hindi: CVE & CVSS — YouTube](https://www.youtube.com/results?search_query=CVE+CVSS+vulnerability+Hindi+cybersecurity)
+
+## 41. Vulnerability Scanning
+
+Learn:
+
+* Nmap NSE
+* OpenVAS
+* Greenbone
+* Nessus
+
+🎥 [Hindi: Vulnerability Scanning — YouTube](https://www.youtube.com/results?search_query=vulnerability+scanning+Nessus+OpenVAS+Hindi)
+
+## 42. Vulnerability Management
+
+🎥 [Hindi: Vulnerability Management — YouTube](https://www.youtube.com/results?search_query=vulnerability+management+Hindi+cybersecurity)
+
+---
+
+# 10 — Web Security
+
+## 43. Web Application Architecture
+
+Learn:
+
+* Frontend
+* Backend
+* Database
+* APIs
+* Cookies
+* Sessions
+
+🎥 [Hindi: Web Application Security — YouTube](https://www.youtube.com/results?search_query=web+application+security+basics+Hindi)
+
+## 44. OWASP Top 10
+
+🎥 [Hindi: OWASP Top 10 — YouTube](https://www.youtube.com/results?search_query=OWASP+Top+10+full+course+Hindi)
+
+## 45. SQL Injection
+
+🎥 [Hindi: SQL Injection — YouTube](https://www.youtube.com/results?search_query=SQL+injection+Hindi+ethical+hacking)
+
+## 46. XSS
+
+🎥 [Hindi: Cross-Site Scripting — YouTube](https://www.youtube.com/results?search_query=XSS+cross+site+scripting+Hindi+ethical+hacking)
+
+## 47. CSRF
+
+🎥 [Hindi: CSRF — YouTube](https://www.youtube.com/results?search_query=CSRF+web+security+Hindi)
+
+## 48. IDOR / Broken Access Control
+
+🎥 [Hindi: IDOR — YouTube](https://www.youtube.com/results?search_query=IDOR+broken+access+control+Hindi)
+
+## 49. SSRF
+
+🎥 [Hindi: SSRF — YouTube](https://www.youtube.com/results?search_query=SSRF+Hindi+web+security)
+
+## 50. JWT / Authentication
+
+🎥 [Hindi: JWT & Web Authentication — YouTube](https://www.youtube.com/results?search_query=JWT+authentication+web+security+Hindi)
+
+---
+
+# 11 — Active Directory
+
+## 51. Windows Fundamentals
+
+🎥 [Hindi: Windows Security Fundamentals — YouTube](https://www.youtube.com/results?search_query=Windows+security+fundamentals+Hindi+cybersecurity)
+
+## 52. Active Directory Fundamentals
+
+Learn:
+
+* Domain
+* Domain Controller
+* Users
+* Groups
+* OU
+* GPO
+
+🎥 [Hindi: Active Directory — YouTube](https://www.youtube.com/results?search_query=Active+Directory+full+course+Hindi+cybersecurity)
+
+## 53. Kerberos
+
+🎥 [Hindi: Kerberos — YouTube](https://www.youtube.com/results?search_query=Kerberos+Active+Directory+Hindi)
+
+## 54. LDAP / NTLM
+
+🎥 [Hindi: LDAP & NTLM — YouTube](https://www.youtube.com/results?search_query=LDAP+NTLM+Active+Directory+Hindi)
+
+## 55. Active Directory Security
+
+🎥 [Hindi: Active Directory Security — YouTube](https://www.youtube.com/results?search_query=Active+Directory+security+Hindi+cybersecurity)
+
+---
+
+# 12 — SOC / Blue Team
+
+## 56. SOC Fundamentals
+
+🎥 [Hindi: SOC Analyst — YouTube](https://www.youtube.com/results?search_query=SOC+analyst+full+course+Hindi)
+
+## 57. Log Analysis
+
+Learn:
+
+* Windows logs
+* Linux logs
+* Authentication logs
+* Firewall logs
+* Web logs
+
+🎥 [Hindi: Log Analysis — YouTube](https://www.youtube.com/results?search_query=log+analysis+SOC+Hindi+cybersecurity)
+
+## 58. SIEM
+
+Learn:
+
+* Log ingestion
+* Correlation
+* Alerts
+* Dashboards
+* Detection rules
+
+🎥 [Hindi: SIEM — YouTube](https://www.youtube.com/results?search_query=SIEM+full+course+Hindi+SOC+analyst)
+
+## 59. Splunk
+
+🎥 [Hindi: Splunk SOC — YouTube](https://www.youtube.com/results?search_query=Splunk+SOC+analyst+Hindi)
+
+## 60. Incident Response
+
+```text
 Preparation
      ↓
 Detection
@@ -709,89 +755,92 @@ Eradication
 Recovery
      ↓
 Lessons Learned
+```
 
-🎥 Hindi:
-Incident Response — YouTube
+🎥 [Hindi: Incident Response — YouTube](https://www.youtube.com/results?search_query=incident+response+full+course+Hindi+cybersecurity)
 
-61. Threat Hunting
+## 61. Threat Hunting
 
-🎥 Hindi:
-Threat Hunting — YouTube
+🎥 [Hindi: Threat Hunting — YouTube](https://www.youtube.com/results?search_query=threat+hunting+MITRE+ATTACK+Hindi)
 
-13 — Digital Forensics
-62. Digital Forensics Fundamentals
+---
 
-🎥 Hindi:
-Digital Forensics — YouTube
+# 13 — Digital Forensics
 
-63. Disk Forensics
+## 62. Digital Forensics Fundamentals
 
-🎥 Hindi:
-Disk Forensics — YouTube
+🎥 [Hindi: Digital Forensics — YouTube](https://www.youtube.com/results?search_query=digital+forensics+full+course+Hindi)
 
-64. Memory Forensics
+## 63. Disk Forensics
 
-🎥 Hindi:
-Memory Forensics / Volatility — YouTube
+🎥 [Hindi: Disk Forensics / Autopsy — YouTube](https://www.youtube.com/results?search_query=disk+forensics+Autopsy+Hindi)
 
-65. Network Forensics
+## 64. Memory Forensics
 
-🎥 Hindi:
-Network Forensics — YouTube
+🎥 [Hindi: Volatility / Memory Forensics — YouTube](https://www.youtube.com/results?search_query=Volatility+memory+forensics+Hindi)
 
-14 — Malware Analysis
-66. Malware Fundamentals
+## 65. Network Forensics
 
-🎥 Hindi:
-Malware Analysis — YouTube
+🎥 [Hindi: Network Forensics — YouTube](https://www.youtube.com/results?search_query=network+forensics+Wireshark+Hindi)
 
-67. Static Analysis
+---
 
-🎥 Hindi:
-Static Malware Analysis — YouTube
+# 14 — Malware Analysis
 
-68. Dynamic Analysis
+## 66. Malware Fundamentals
 
-🎥 Hindi:
-Dynamic Malware Analysis — YouTube
+🎥 [Hindi: Malware Analysis — YouTube](https://www.youtube.com/results?search_query=malware+analysis+full+course+Hindi)
 
-69. Ghidra / Reverse Engineering
+## 67. Static Analysis
 
-🎥 Hindi:
-Ghidra Reverse Engineering — YouTube
+🎥 [Hindi: Static Malware Analysis — YouTube](https://www.youtube.com/results?search_query=static+malware+analysis+Hindi)
 
-15 — Cloud Security
-70. Cloud Fundamentals
+## 68. Dynamic Analysis
 
-🎥 Hindi:
-Cloud Computing — YouTube
+🎥 [Hindi: Dynamic Malware Analysis — YouTube](https://www.youtube.com/results?search_query=dynamic+malware+analysis+Hindi)
 
-71. AWS Fundamentals
+## 69. Reverse Engineering
+
+🎥 [Hindi: Ghidra Reverse Engineering — YouTube](https://www.youtube.com/results?search_query=Ghidra+reverse+engineering+Hindi)
+
+---
+
+# 15 — Cloud Security
+
+## 70. Cloud Fundamentals
+
+🎥 [Hindi: Cloud Computing — YouTube](https://www.youtube.com/results?search_query=cloud+computing+full+course+Hindi)
+
+## 71. AWS Fundamentals
 
 Learn:
 
-EC2
-S3
-VPC
-IAM
-RDS
-CloudWatch
+* EC2
+* S3
+* VPC
+* IAM
+* RDS
+* CloudWatch
 
-🎥 Hindi:
-AWS Cloud — YouTube
+🎥 [Hindi: AWS Full Course — YouTube](https://www.youtube.com/results?search_query=AWS+cloud+full+course+Hindi)
 
-72. AWS IAM
+## 72. AWS IAM
 
-🎥 Hindi:
-AWS IAM Security — YouTube
+🎥 [Hindi: AWS IAM Security — YouTube](https://www.youtube.com/results?search_query=AWS+IAM+security+Hindi)
 
-73. Cloud Security
+## 73. Cloud Security
 
-🎥 Hindi:
-Cloud Security — YouTube
+🎥 [Hindi: Cloud Security — YouTube](https://www.youtube.com/results?search_query=cloud+security+AWS+Hindi+cybersecurity)
 
-16 — Penetration Testing
-74. Pentesting Methodology
+---
+
+# 16 — Penetration Testing
+
+> Practice only on systems you own, intentionally vulnerable labs, CTFs, or systems where you have explicit authorization.
+
+## 74. Pentesting Methodology
+
+```text
 Scope
  ↓
 Recon
@@ -807,74 +856,74 @@ Documentation
 Report
  ↓
 Remediation
+```
 
-🎥 Hindi:
-Penetration Testing — YouTube
+🎥 [Hindi: Penetration Testing — YouTube](https://www.youtube.com/results?search_query=penetration+testing+full+course+Hindi)
 
-75. Network Pentesting
+## 75. Network Pentesting
 
-🎥 Hindi:
-Network Pentesting — YouTube
+🎥 [Hindi: Network Pentesting — YouTube](https://www.youtube.com/results?search_query=network+penetration+testing+Hindi)
 
-76. Web Pentesting
+## 76. Web Pentesting
 
-🎥 Hindi:
-Web Pentesting — YouTube
+🎥 [Hindi: Web Pentesting — YouTube](https://www.youtube.com/results?search_query=web+penetration+testing+Hindi)
 
-77. API Security
+## 77. API Security
 
-🎥 Hindi:
-API Security — YouTube
+🎥 [Hindi: API Security — YouTube](https://www.youtube.com/results?search_query=API+security+penetration+testing+Hindi)
 
-17 — Red Team
-78. Red Team Fundamentals
+---
 
-🎥 Hindi:
-Red Team — YouTube
+# 17 — Red Team
 
-79. Active Directory Security Testing
+## 78. Red Team Fundamentals
 
-🎥 Hindi:
-AD Red Team — YouTube
+🎥 [Hindi: Red Team — YouTube](https://www.youtube.com/results?search_query=red+team+cybersecurity+Hindi)
 
-80. MITRE ATT&CK
+## 79. Active Directory Security Testing
+
+🎥 [Hindi: Active Directory Red Team — YouTube](https://www.youtube.com/results?search_query=Active+Directory+red+team+Hindi)
+
+## 80. MITRE ATT&CK
 
 Learn:
 
-Tactics
-Techniques
-Procedures
-Detection
+* Tactics
+* Techniques
+* Procedures
+* Detection mapping
 
-🎥 Hindi:
-MITRE ATT&CK — YouTube
+🎥 [Hindi: MITRE ATT&CK — YouTube](https://www.youtube.com/results?search_query=MITRE+ATTACK+full+course+Hindi)
 
-18 — DevSecOps
-81. Secure SDLC
+---
 
-🎥 Hindi:
-Secure SDLC — YouTube
+# 18 — DevSecOps
 
-82. SAST / DAST
+## 81. Secure SDLC
 
-🎥 Hindi:
-SAST DAST — YouTube
+🎥 [Hindi: Secure SDLC — YouTube](https://www.youtube.com/results?search_query=secure+SDLC+Hindi+cybersecurity)
 
-83. Container Security
+## 82. SAST / DAST
 
-🎥 Hindi:
-Docker Container Security — YouTube
+🎥 [Hindi: SAST & DAST — YouTube](https://www.youtube.com/results?search_query=SAST+DAST+DevSecOps+Hindi)
 
-84. DevSecOps
+## 83. Container Security
 
-🎥 Hindi:
-DevSecOps — YouTube
+🎥 [Hindi: Docker Security — YouTube](https://www.youtube.com/results?search_query=Docker+container+security+Hindi)
 
-19 — Practical Labs
-85. Home Cybersecurity Lab
+## 84. DevSecOps
+
+🎥 [Hindi: DevSecOps — YouTube](https://www.youtube.com/results?search_query=DevSecOps+full+course+Hindi)
+
+---
+
+# 19 — Practical Labs
+
+## 85. Home Cybersecurity Lab
 
 Build:
 
+```text
                 Your PC
                    │
         ┌──────────┼──────────┐
@@ -884,21 +933,141 @@ Build:
         └──────────┼──────────┘
                    │
               Isolated Lab
+```
 
-🎥 Hindi:
-Cybersecurity Home Lab — YouTube
+🎥 [Hindi: Cybersecurity Home Lab — YouTube](https://www.youtube.com/results?search_query=cybersecurity+home+lab+VirtualBox+Hindi)
 
-86. OWASP Juice Shop
+## 86. OWASP Juice Shop
 
-🎥 Hindi:
-OWASP Juice Shop — YouTube
+🎥 [Hindi: OWASP Juice Shop — YouTube](https://www.youtube.com/results?search_query=OWASP+Juice+Shop+Hindi)
 
-87. TryHackMe
+## 87. TryHackMe
 
-🎥 Hindi:
-TryHackMe Beginner — YouTube
+🎥 [Hindi: TryHackMe Beginner — YouTube](https://www.youtube.com/results?search_query=TryHackMe+beginner+Hindi+cybersecurity)
 
-88. Hack The Box
+## 88. Hack The Box
 
-🎥 Hindi:
-Hack The Box Beginner — YouTube
+🎥 [Hindi: Hack The Box Beginner — YouTube](https://www.youtube.com/results?search_query=Hack+The+Box+beginner+Hindi)
+
+---
+
+# 🧪 Projects
+
+## Beginner
+
+* [ ] Password Strength Checker
+* [ ] Password Generator
+* [ ] File Integrity Checker
+* [ ] Linux Security Audit
+* [ ] System Information Tool
+
+## Networking
+
+* [ ] Python Port Scanner
+* [ ] Network Scanner
+* [ ] Packet Analysis Reports
+* [ ] DNS Enumeration Tool
+* [ ] Network Monitoring Tool
+
+## Web Security
+
+* [ ] OWASP Top 10 Lab
+* [ ] Burp Suite Lab Reports
+* [ ] Secure Login Application
+* [ ] API Security Lab
+
+## Blue Team
+
+* [ ] Log Analyzer
+* [ ] SIEM Lab
+* [ ] SOC Dashboard
+* [ ] Detection Rules
+* [ ] Incident Response Reports
+* [ ] Threat Hunting Reports
+
+## Forensics
+
+* [ ] Disk Forensics Case
+* [ ] Memory Forensics Case
+* [ ] PCAP Investigation
+* [ ] Malware Analysis Report
+
+## Advanced
+
+* [ ] Active Directory Lab
+* [ ] Mini SOC
+* [ ] Cloud Security Lab
+* [ ] DevSecOps Pipeline
+* [ ] Full Cybersecurity Home Lab
+
+---
+
+# ⭐ Recommended Learning Order
+
+```text
+Computer Fundamentals
+        ↓
+Linux
+        ↓
+Networking
+        ↓
+Python
+        ↓
+Cybersecurity Fundamentals
+        ↓
+Cryptography
+        ↓
+Nmap
+        ↓
+Wireshark
+        ↓
+Web Technologies
+        ↓
+Burp Suite
+        ↓
+OWASP Top 10
+        ↓
+Vulnerability Assessment
+        ↓
+Active Directory
+        ↓
+SOC / SIEM
+        ↓
+Digital Forensics
+        ↓
+Cloud Security
+        ↓
+Penetration Testing
+        ↓
+Red Team
+        ↓
+DevSecOps
+        ↓
+Projects + CTFs
+        ↓
+Portfolio
+        ↓
+JOB READY
+```
+
+---
+
+# 🇮🇳 Recommended Hindi Starting Courses
+
+### 1. Ethical Hacking
+
+🎥 [WsCube Tech — Ethical Hacking Full Course: Beginner to Pro in 10 Hours](https://www.youtube.com/watch?v=Rgvzt0D8bR4)
+
+### 2. Networking
+
+🎥 [Gate Smashers — Computer Networks and Security](https://www.youtube.com/watch?v=JFF2vJaN0Cw)
+
+### 3. Kali Linux
+
+🎥 [Kali Linux — Hindi Course](https://www.youtube.com/results?search_query=Kali+Linux+full+course+Hindi+cybersecurity)
+
+---
+
+> **Rule:** Don't just watch the videos. For every major section, build a lab, take notes, solve exercises, and create a GitHub project/write-up.
+
+> **Legal & ethical use:** Perform scanning, exploitation, password testing, enumeration, and penetration testing only against systems you own or have explicit authorization to test.
